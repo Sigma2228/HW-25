@@ -184,7 +184,7 @@ color: dodgerblue;
 }
 .img-wrap {
     width: 30%;
-    height: 250px;
+    height: 294px;
     position: relative;
 }
 .section-img {
@@ -192,9 +192,21 @@ color: dodgerblue;
     height: 100%;
 }
 .absolute-text {
+    text-align: center;
+    width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 27px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.background {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #2f303ab4;
 }
 .section-title {
     font-size: 36px;
@@ -206,9 +218,7 @@ color: dodgerblue;
 .section-employees {
     background: #F5F4FA;
 }
-.section-img {
-    margin-bottom: 111px;
-}
+
 .section-gallery .container {
     gap: 30px;
 }
